@@ -4,10 +4,7 @@
 
 A [Flarum](http://flarum.org) extension that adds a full list of users to the admin panel.
 
-![Imgur](https://i.imgur.com/JSlVsEn.png)  
-![Imgur](https://i.imgur.com/PIHr4mT.png)  
-
-> The initial version was created by [Avatar4eg](https://github.com/avatar4eg) & [Flagrow](https://github.com/flagrow/users-list), all credits of that version go to them.
+> The initial version was created by [Avatar4eg](https://github.com/avatar4eg) & [Flagrow](https://github.com/flagrow/users-list), all credits for those versions go to them.
 
 ## Installation
 
