@@ -1,5 +1,5 @@
 {
-  "name": "flagrow/users-list",
+  "name": "davwheat/flarum-admin-users-list",
   "description": "Add users list in admin panel.",
   "type": "flarum-extension",
   "keywords": [
@@ -16,27 +16,32 @@
     {
       "name": "Nikolai Morozov",
       "email": "avanmorozov@gmail.com"
+    },
+    {
+      "name": "David Wheatley",
+      "email": "davidwheatley03@gmail.com",
+      "role": "Developer"
     }
   ],
   "require": {
-    "flarum/core": "0.1.0-beta.8"
+    "flarum/core": "^v0.1.0-beta.13"
   },
   "autoload": {
     "psr-4": {
-      "Flagrow\\UsersList\\": "src/"
+      "Davwheat\\UsersList\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "Flagrow Users List",
+      "title": "DW Admin Users List",
       "icon": {
-        "name": "fas fa-users",
-        "backgroundColor": "#f4f4f4",
-        "color": "#5f4bb6"
+        "name": "far fa-address-book",
+        "backgroundColor": "#00528A",
+        "color": "#fff"
       }
     },
     "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/6009-flagrow-users-list-review-and-mass-mail-users-of-your-forum"
+      "discuss": ""
     }
   }
 }

@@ -1,7 +1,9 @@
-import addUsersListPane from './addUsersListPane';
+import addUsersListPane from "./addUsersListPane";
 
-app.initializers.add('flagrow-users-list', () => {
-    app.extensionSettings['flagrow-users-list'] = () => m.route(app.route('usersList'));
+app.initializers.add("davwheat-admin-users-list", () => {
+    app.extensionSettings["davwheat-admin-users-list"] = () => {
+        return m.route(app.route("user-list"));
+    };
 
     addUsersListPane();
 });
